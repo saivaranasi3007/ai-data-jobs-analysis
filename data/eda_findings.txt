@@ -1,0 +1,80 @@
+AI & DATA JOBS — EDA FINDINGS
+========================================
+
+Median annual salary (USD): $180,000
+P10 / P90: $120,900 / $297,100
+Entry → Lead median jump: 64.1%
+corr(years_of_experience, salary): 0.079
+corr(role demand, role salary): 0.546
+
+By experience level:
+                    median      mean  count
+experience_level                           
+Entry (0-2 yrs)   145000.0  150039.0    385
+Mid (3-5 yrs)     162000.0  175984.0    370
+Senior (6-9 yrs)  208000.0  214280.0    364
+Lead (10+ yrs)    238000.0  240055.0    381
+
+LLM premium (within experience level, % above non-LLM):
+                  non_llm_median  llm_median  delta_pct
+experience_level                                       
+Entry (0-2 yrs)         141000.0    155000.0        9.9
+Mid (3-5 yrs)           160000.0    172000.0        7.5
+Senior (6-9 yrs)        200500.0    227000.0       13.2
+Lead (10+ yrs)          233000.0    256000.0        9.9
+
+By remote arrangement:
+                median      mean  count
+remote_work                            
+Fully Remote  181000.0  197967.0    445
+On-site       180000.0  195269.0    369
+Hybrid        179000.0  192694.0    686
+
+Top countries by posting count:
+             postings  median_salary
+country                             
+USA               515       219000.0
+UK                 90       167500.0
+China              87       140000.0
+Canada             85       159000.0
+Global             82       221000.0
+Germany            81       173000.0
+Australia          78       180500.0
+Japan              76       158500.0
+Switzerland        76       167500.0
+Netherlands        74       160000.0
+Singapore          71       180000.0
+France             66       160000.0
+UAE                62       186500.0
+India              57       140000.0
+
+Top 15 skills:
+          skill  count
+         Python    942
+            SQL    452
+          Cloud    429
+     Leadership    380
+  Communication    378
+       Research    376
+          Agile    351
+     Statistics    350
+          Linux    320
+Problem Solving    314
+        PyTorch    302
+            Git    295
+    Fine-tuning    164
+           LLMs    125
+     Kubernetes    123
+
+Highest-paying skills (median salary among postings that list them):
+              skill  n_postings  median_salary  delta_vs_overall_pct
+Distributed Systems          99       220000.0                  22.2
+               APIs          98       207000.0                  15.0
+        Fine-tuning         164       206500.0                  14.7
+               CUDA         117       197000.0                   9.4
+            PyTorch         302       196000.0                   8.9
+               LLMs         125       190000.0                   5.6
+         Kubernetes         123       187000.0                   3.9
+              Agile         340       186500.0                   3.6
+    Problem Solving         314       181500.0                   0.8
+         Leadership         363       180000.0                   0.0
